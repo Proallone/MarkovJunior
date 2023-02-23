@@ -13,22 +13,22 @@
     <prl in="Y" out="R" p="0.25" steps="1"/>
     <prl in="Y" out="B"/>
 
-    <all comment="draw columns">
+    <!-- <all comment="draw columns">
       <rule in="D B" out="* F"/>
       <rule in="F B" out="* F"/>
-    </all>
-    <all comment="remove extra columns">
+    </all> -->
+    <!-- <all comment="remove extra columns">
       <rule in="FF EE" out="BB EE"/>
       <rule in="FF FD EE" out="FF BD EE"/>
       <rule in="F B" out="B B"/>
       <rule in="B F" out="B B"/>
       <rule in="F P" out="B P"/>
       <rule in="P* *F" out="** *B"/>
-    </all>
-    <all comment="draw corner columns">
+    </all> -->
+    <!-- <all comment="draw corner columns">
       <rule in="*A*/ADB/*B* ***/*B*/***" out="***/***/*** ***/*F*/***"/>
       <rule in="F B" out="F F"/>
-    </all>
+    </all> -->
     <all comment="place windows">
       <rule in="FBBBF *AAA*" out="*RRR* *****"/>
       <rule in="FBBBF *RRR*" out="*RRR* *****"/>
